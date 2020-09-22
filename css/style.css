@@ -100,3 +100,25 @@ nav li:hover {
   margin-top: 10px;
   font-size: 0.6em;
 }
+footer {
+  background-color: white;
+  border-radius: 5px;
+  text-align: center;
+  color: darkgrey;
+}
+footer span {
+  font-size: 0.6em;
+}
+.footer-icons:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+.footer-icons a{
+  font-size: 1.5em;
+  float: left;
+  width: 3%;
+  margin: 0 15%;
+  color: darkgrey;
+  padding: 10px 0;
+}
