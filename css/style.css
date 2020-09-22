@@ -1,0 +1,29 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-image: url('../img/natural-pattern.png');
+  font-size: 20px;
+  font-family: 'Roboto',sans-serif;
+}
+.container-full{
+  width: 65%;
+  margin: 0 auto;
+}
+header{
+  background-image: url(../img/natural-header.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+  text-align: center;
+  color: white;
+  height: 250px;
+  border: 4px solid white;
+}
+header img {
+  height: 70%;
+}
+header h2{
+  font-size: 0.9em;
+}
